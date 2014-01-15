@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<link rel = "stylesheet" href = "Design/style.css" />
+	<title>BatMeca</title>
+</head>
+<body>
+	<div class="barreMenu">
+		<table class="tableBarreMenu">
+			<tr>
+				<td>
+					<img class="barreMenuImgUnclickable" src="Design/img/home.png" alt=""/>	
+				</td>
+				<td>
+					<img class="barreMenuImgUnclickable" src="Design/img/material.png" alt=""/>	
+					<img class="barreMenuImgUnclickable"src="Design/img/add.png" alt=""/>	
+				</td>
+				<td>
+					<form action="Deconnection" method="POST">
+						<input class="submitImageUnclickable" value="" type="submit"/>
+					</form>
+				</td>
+				<td>
+					<a href="" title="Help">
+						<img src="Design/img/help.png" alt=""/>
+					</a>	
+				</td>
+			</tr>
+		</table>			
+	</div>
+	<div class="onglet">
+			Autentification
+		</div>
+	<div class="corps">	
+		<div class="corpsContenu">
+			<form action="LoginServlet" method="POST">
+				<table class="tableFormLogin">
+					<tr>
+						<td>
+							Login : 
+						</td>
+						<td>
+							<input name="inputLogin" type="text" width="200" />
+						</td>	
+					</tr>
+					<tr>
+						<td>	
+							Password :
+						</td>
+						<td>	
+							<input name="inputPassword" type="password" width="200" />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align:center;">		
+							<input class="bouton" type="submit" value="Connexion"/>
+						</td>		
+					</tr>	
+				</table>	
+			</form>
+		</div>
+		<!--
+		<a href="#" onclick="document.getElementById('mdp_perdu').style.visibility='visible';">Forgot your password ?</a>
+			
+		<div id="mdp_perdu" style="visibility:hidden">
+			<form action="" method="POST">
+				<p>Login: <input name="inputLogin" type="text" width="200" /></p>
+				<p>Email: <input name="inputEmail" type="text" width="200" /></p>
+				<p><input type="submit" value="Send Password"/></p>	
+			</form>
+		</div>
+		-->
+	</div>
+	<div class="console">
+	</div>	
+</body>
+</html>

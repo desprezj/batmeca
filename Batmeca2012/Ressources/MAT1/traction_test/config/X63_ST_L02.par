@@ -1,0 +1,14 @@
+type	st
+c_time	1
+c_ll	2
+c_load	5
+c_ext	3
+c_rad	4
+L0	20
+d0	3.99
+L0ext	9.230000
+factor_ext	1
+sig1	100.
+sig2	350.
+n1	2
+n2	1012
